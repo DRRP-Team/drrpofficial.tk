@@ -204,6 +204,11 @@ header.masthead {
         color: #f0f0f0;
         transform: rotate(45deg);
         -webkit-transform: rotate(45deg);
+
+        @media (max-width:768px) {
+            top: 120px;
+            right: -160px;
+        }
     }
 
     .container {
@@ -280,6 +285,10 @@ header.masthead {
     .about-text {
         text-align: left;
         font-size: 24px;
+
+        @media (max-width:768px) {
+            font-size: 18px;
+        }
     }
 }
 
@@ -314,11 +323,19 @@ header.masthead {
         &:last-child {
             border-top-right-radius: 15px;
         }
+
+        @media (max-width:768px) {
+            border-radius: 15px;
+            margin: 0 15px;
+        }
     }
     
     .btn {
-        border-radius: 0 0 15px 15px;
         border: 1px solid $accent-color;
+
+        &.btn-donate {
+            border-radius: 0 0 15px 15px;
+        }
     }
 }
 
@@ -480,6 +497,13 @@ header.masthead {
     .badmember {
         color: #555;
         font-style: italic;
+    }
+
+    @media (max-width:768px) {
+        .footer-col {
+            padding: 0 40px;
+            font-size: 75%;
+        }
     }
 }
 
