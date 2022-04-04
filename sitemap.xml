@@ -6,7 +6,11 @@
                 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
     <url>
-        <loc>http://drrpofficial.tk/</loc>
-        <lastmod>2018-10-24T21:50:11+00:00</lastmod>
+        <loc>https://drrpofficial.tk/</loc>
+        <lastmod>2022-04-04T09:50:11+00:00</lastmod>
+    </url>
+    <url>
+        <loc>https://drrpofficial.tk/donate.html</loc>
+        <lastmod>2022-04-04T09:50:11+00:00</lastmod>
     </url>
 </urlset>
